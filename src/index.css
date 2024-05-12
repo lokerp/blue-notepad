@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "ArsenalRegular";
+  src: local("ArsenalRegular"),
+   url("./assets/fonts/Arsenal/Arsenal-Regular.ttf") format("truetype");
+  font-weight: normal;
+ }
+
+:root {
+  font-family: ArsenalRegular;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 14px;
+
+  color-scheme: light dark;
+  color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --header-height: 30px;
+
+  --sidebar-width: 20%;
+  --sidebar-min-width: 200px;
+
+  --light-blue-color: #5B66A1;
+  --darker-light-blue-color: #404979;
+  --blue-color: #2B3360;
+  --darker-blue-color: #282F55;
+  --lighter-blue-color: #404B86;
+}
+
+a:link, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+body {
+  background: transparent;
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: ArsenalRegular;
+  font-size: 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  background: #ffffff;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.d-none {
+  display: none;
+}
+
+
+
+

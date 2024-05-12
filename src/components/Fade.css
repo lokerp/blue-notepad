@@ -1,0 +1,14 @@
+.fade {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    background: black;
+    opacity: 0;
+    transition: opacity .1s linear;
+}
+
+.fade-on {
+    opacity: .3;
+    transition: opacity .1s linear;
+}

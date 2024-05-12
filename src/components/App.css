@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background: white;
+}
+
+/* .app-main {
+    --calculated-width: max(var(--sidebar-min-width), 100% - var(--sidebar-width));
+    width: var(--calculated-width);
+    margin-left: calc(100% - var(--calculated-width));
+    min-height: 100vh;
+} */
+
+.app-main {
+    flex-grow: 1;
+}
+/* .app-main-closed-sidebar {
+    width: 100%;
+    margin-left: 0;
+} */

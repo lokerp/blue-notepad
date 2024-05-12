@@ -1,0 +1,11 @@
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100% - var(--header-height));
+    padding: 5px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: black;
+    resize: none;
+}

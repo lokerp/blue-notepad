@@ -1,0 +1,52 @@
+.filefolder {
+    width: 100%;
+}
+
+.filefolder-name {
+    margin: 0 0 5px 0;
+}
+
+.filefolder-file-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filefolder-file-list li {
+    position: relative;
+}
+
+.filefolder-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    padding: 0 20px;
+    background: var(--lighter-blue-color);
+    border-radius: 10px;
+}
+
+.filefolder-btn-current {
+    background: var(--light-blue-color);
+}
+
+.filefolder-favorite-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+    top: 7px;
+    right: 5px;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.filefolder-favorite-btn:hover {
+    background-color: var(--light-blue-color);
+}
